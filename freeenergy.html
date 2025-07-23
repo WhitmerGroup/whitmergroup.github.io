@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Whitmer Group @ ND</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <h1>
+          <a href="index.html">Whitmer Research Group</a>
+        </h1>
+        <h2> Soft Materials Modeling and Computation</h2>
+        <h3> 
+          <a href="http://cbe.nd.edu"> Department of Chemical and Biomolecular Engineering</a> 
+          // 
+          <a href="http://engineering.nd.edu"> College of Engineering </a>
+          //
+          <a href="http://www.nd.edu">University of Notre Dame</a>
+        </h3>
+      </div>
+      <div id="menu"> 
+        <a href="index.html">Projects</a> 
+        <a href="papers.html">Papers</a> 
+        <a href="positions.html">Positions</a>
+        <a href="people.html">People</a>
+        <a href="pictures.html">Pictures</a>
+        <a href="codes.html">Codes</a> 
+        <a href="community.html">Community</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div id="content">
+        <h2>Mapping Free Energy Landscapes</h2>
+        <div class="wrapper">
+          <div class="a">
+            <a href="#"><img src="img/fes.png" 
+                             alt="ADP Free Energy Surface"></a>
+          </div>
+          <div class="b">
+            Free energy map of alanine dipeptide computed using the cosines of the torsional angles \(\phi\) and \(\psi\) using umbrella sampling, metadynamics
+            and the Green's Function Sampling technique developed by Prof. Whitmer.
+          </div>
+        </div>
+
+
+        <p> Modern computer simulations involve tracking the behavior of thousands to millions of atoms. At the core of molecular simulations are two fundamental techniques, Monte Carlo (which performs a random walk to obtain statistics on configurations of a system), and Molecular Dynamics (which integrates Newton's equations directly). Each method relies on efficient computation of inter-molecular pair, intra-molecular bonded and background field interactions. Despite this, important thermodynamic properties such as free  energy minima and the reactive pathways between them, require prohibitively expensive calculations. Computational scientists therefore make use of a  variety of sampling techniques to efficiently obtain thermodynamic  properties. These fall into two primary categories: methods which obtain free energy landscapes, and methods focused on obtaining transition pathways and reactive trajectories.<br><br>
+
+        The Whitmer group has extensive experience in the development, use, and implementation of advanced sampling algorithms and free energy measurements. The group develops and maintains the <a href="https://github.com/MICCoM/SSAGES-public">SSAGES</a> package  (Software Suite for Advanced Generalized Ensemble Simulations), which  provides a framework for free energy and reactive path sampling that can extend publically available MD codes such as <a href="http://lammps.sandia.gov/">LAMMPS</a>, <a href="http://www.gromacs.org/">GROMACS</a> and <a href="http://openmd.org/">OpenMD</a>. We are also involved in the  development of new free energy sampling methods and simulation  techniques. In particular, we wish to use these techniques to understand self-assembly and response of soft materials.</p>
+
+        <br><br>
+
+        <h2> Related Publications </h2>
+        <br>
+        <div class="wrapper">
+          <div class="row"> 
+            [1] Whitmer, Jonathan K., Chi-cheng Chiu, Abhijeet A. Joshi, and Juan J. de Pablo. "Basis Function Sampling: A New Paradigm for Material Property Computation." Physical Review Letters <b>113</b>, 19 (2014): 190602. <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.190602">Link</a><br>
+          </div>
+          <div class="row"> 
+            [2] Whitmer, Jonathan K., Aaron M. Fluitt, Lucas Antony, Jian Qin, Michael McGovern, and Juan J. de Pablo. "Sculpting bespoke mountains: Determining free energies with basis expansions." The Journal of chemical physics <b>143</b>, 4 (2015): 044101. <a href="http://aip.scitation.org/doi/abs/10.1063/1.4927147"> Link</a><br>
+          </div>
+          <div class="row"> 
+            [3] Sidky, Hythem and Jonathan K. Whitmer. "Learning Free Energy Landscapes with Artificial Neural Networks." <em>Submitted</em> (2017). 
+          </div>
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>
